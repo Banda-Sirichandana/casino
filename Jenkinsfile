@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/vamsibyramala/casino.git'
+                git branch: 'main', url: 'https://github.com/vamsibyramala/casino.git' 
             }
         }
         stage('Build') {
